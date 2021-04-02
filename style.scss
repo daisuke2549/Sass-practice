@@ -38,8 +38,6 @@ $font-size:20px;
     width:25%;
     text-align:center;
     a{
-     @include button(8px);
-
       &:hover{
       color: #da1e32;
       background-color:blue;
@@ -67,4 +65,12 @@ $font-size:20px;
     height:200px;
     margin:0 auto;
     background-color:pink;
+}
+
+.card-items{
+     background-color:green;
+     width:500px;
+     height:500px;
+     margin:0 auto;
+     margin-top:50px;
 }
