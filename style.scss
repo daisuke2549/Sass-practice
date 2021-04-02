@@ -1,7 +1,8 @@
 $a-color:red;
 $bg-color:blue;
 $font-size:20px;
-
+$width:700px;
+$height:700px;
 
 @function activeFontSize($base-size){
     @return $base-size + 2px;
@@ -69,8 +70,8 @@ $font-size:20px;
 
 .card-items{
      background-color:green;
-     width:500px;
-     height:500px;
+     width:$width;
+     height:$height;
      margin:0 auto;
      margin-top:50px;
 }
