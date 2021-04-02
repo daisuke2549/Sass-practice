@@ -14,3 +14,36 @@
   color: red;
   font-weight: italic;
 }
+
+.scss-lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+.scss-lists li {
+  width: 25%;
+  text-align: center;
+}
+.scss-lists li a {
+  color: #333;
+  font-size: 20px;
+}
+.scss-lists li a:hover {
+  color: #da1e32;
+  background-color: blue;
+}
+.scss-lists li a.active {
+  color: green;
+}
+
+.button, .scss-lists li a {
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: 1px solid #333;
+  text-decoration: none;
+}
