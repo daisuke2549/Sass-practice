@@ -1,6 +1,6 @@
 .flexbox {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   margin-top: 100px;
 }
 
@@ -27,3 +27,26 @@
   height: 100px;
   background-color: yellow;
 }
+
+li{
+  list-style: none;
+}
+
+.flexbox li:nth-child(2){
+    padding-bottom: 100px;
+}
+.flexbox li:nth-child(4){
+  margin-top: 30px;
+}
+
+.flexbox li:last-child{
+  margin-left: 100px;
+}
+
+
+@media screen and (min-width:700px){
+  .box4{
+    background-color: purple;
+  }
+}
+
